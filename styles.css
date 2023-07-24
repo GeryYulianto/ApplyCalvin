@@ -1,0 +1,75 @@
+body {
+    background-image: url(Assets/elegant-white-background-with-glowing-lines-wallpaper_704097-27.png);
+    font-family: 'Open Sans', sans-serif;
+  }
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8B0000;
+    height: 60px;
+}
+
+header {
+    background-color: #8B0000;
+}
+
+#header img {
+    max-width: 150px;
+    max-height: 200px;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+#card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    transition: transform 0.3s;
+    margin: 20px;
+}
+
+.card:hover {
+    transform: scale(1.13);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#nav-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 60px;
+}
+
+#pills-tabContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: -30px;
+}
+
+#pills-home, #pills-contact {
+    width: 600px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
