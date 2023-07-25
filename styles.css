@@ -3,33 +3,8 @@ body {
     font-family: 'Open Sans', sans-serif;
   }
 
-#header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #8B0000;
-    height: 60px;
-}
-
 header {
-    background-color: #8B0000;
-}
-
-#header img {
-    max-width: 150px;
-    max-height: 200px;
-}
-
-.carousel-item img {
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-#card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #8b0000;
 }
 
 .card {
@@ -41,35 +16,10 @@ header {
     transform: scale(1.13);
 }
 
-.card-img-top {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-#nav-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav-item {
-    margin-right: 60px;
-}
-
-#pills-tabContent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
-    margin-top: -30px;
-}
-
-#pills-home, #pills-contact {
-    width: 600px;
-}
+/* #pills-home, #pills-contact, #pills-profile {
+    width: 500px;
+} */
 
 .card-title {
     font-weight: bold;
 }
-
